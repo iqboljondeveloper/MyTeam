@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+  }  
+  @import url("https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;800;900&display=swap");
+  body {
+    font-family: "Livvic", sans-serif;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    height: 100%;
+  }
+  .container {
+    max-width: 1070px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-header {
+    background-color: #014e56;
+  }
+  .main-nav {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .logo-link:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .navlist {
+    display: flex;
+    list-style: none;
+  }
+  .header-navlist {
+    margin-left: 80px;
+  }
+  .navlist__item:not(:last-child) {
+    margin-right: 40px;
+  }
+  .navlist-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    transition: color 0.6s;
+  }
+  .navlist-link:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+  .contact-link {
+    margin-left: auto;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .contact-link:hover {
+    background-color: tomato;
+  }
+  .link {
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 10px 33px;
+    transition: background 0.6s;
+  }
+  /* MAIN  */
+  .contact-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 120px;
+      padding-bottom: 128px;
+  }
+  .contact-title-content{
+      width: 540px;
+  }
+  .conatct-title{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 100px;
+    color: #FFFFFF;
+  }
+  .mini-title{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    color: #F67E7E
+  }
+  .future-list {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    list-style: none;
+  }
+  .future-list__item {
+    display: flex;
+    align-items: center;
+  }
+  .future-list__item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .future-list__item__img {
+    margin-right: 20px;
+    width: 72px;
+  }
+  .future__item__titile {
+    margin: 0;
+    margin-bottom: 16px;
+    color: #f67e7e;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .future__item__text {
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  .main-form {
+      display: flex;
+      flex-direction: column;
+      width: 542px;
+}
+.input {
+    border: none;
+    font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+background-color:#014E56;
+padding-top: 25px;  
+border-bottom: 1px solid #FFFFFF;
+padding: 16px ;
+}
+.input:hover{
+
+    cursor: pointer;
+}
+.input:focus{
+    outline: none;
+    border-color:tomato ;
+}
+.btn-submit{
+margin-top: 16px;
+background: #FFFFFF;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 24px;
+width: 123px;
+height: 48px;
+}
+/* FOOTER */
+.main-footer {
+    background: #002529;
+    padding: 48px 0px;
+  }
+  .footer-navlist {
+    padding: 0;
+  }
+  .main-footer__container {
+    display: flex;
+    align-items: center;
+  }
+  .footer-logo-content {
+    margin-right: 125px;
+  }
+  .footer-wrap {
+    display: flex;
+    align-items: center;
+  }
+  .footer-text-xontent__text {
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+  .social-links-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: auto;
+  }
+  .social-link__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  .social-link__item:not(:last-child) {
+    margin-right: 16px;
+  }
+  .social-img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .social-link__text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
