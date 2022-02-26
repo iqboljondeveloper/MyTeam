@@ -21,13 +21,15 @@
     padding-right: 20px;
   }
   .main-header {
-    background-color: #014e56;
+    position: relative;
+    background: url(../../img/reviews-bg-right.svg) no-repeat left calc(50% - 685px) center ,
+  url(../../img/about-hero-circle.svg) no-repeat bottom calc(50% - 235px) right,#014e56;
   }
   .main-nav {
     display: flex;
     align-items: center;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 130px;
   }
   
   .logo-link:hover {
@@ -75,8 +77,8 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding-top: 120px;
       padding-bottom: 128px;
+      
   }
   .contact-title-content{
       width: 540px;
@@ -86,6 +88,7 @@
     font-size: 64px;
     line-height: 100px;
     color: #FFFFFF;
+    margin: 0;
   }
   .mini-title{
     font-weight: bold;
